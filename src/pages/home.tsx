@@ -54,7 +54,6 @@ export function HomePage() {
                 title={ai.title}
                 description={ai.description}
                 icon={ai.icon}
-                type={ai.type}
                 link={ai.link}
               />
             ))}

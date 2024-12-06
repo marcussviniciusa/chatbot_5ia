@@ -6,11 +6,10 @@ interface AICardProps {
   title: string;
   description: string;
   icon: LucideIcon;
-  type: string;
   link?: string;
 }
 
-export function AICard({ title, description, icon: Icon, type, link }: AICardProps) {
+export function AICard({ title, description, icon: Icon, link }: AICardProps) {
   return (
     <div className="rounded-lg border border-dark-800 bg-dark-900 p-6 shadow-lg transition-all hover:border-dark-700 hover:shadow-xl">
       <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-dark-800">
